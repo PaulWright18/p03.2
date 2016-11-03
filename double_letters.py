@@ -26,3 +26,9 @@ def run_tests():
 # Edit this code
 def doubler(word):
 
+    new = ""
+    for char in word:
+        new = new + char + char
+
+    print(new)
+
